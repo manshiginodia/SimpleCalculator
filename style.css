@@ -1,0 +1,41 @@
+body{
+    background:rgb(226, 114, 181);
+    padding:50px;
+
+  }
+  .cal 
+  {
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 100px 100px 100px 200px;
+    grid-gap: 10px;
+    padding: 10px;
+    border:2px solid black;  
+    background:rgb(255, 255, 255);
+    width:fit-content;
+    margin:auto;
+  }
+  .result{
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  input{
+    border:2px solid rgb(3, 3, 3);
+    font-size:x-large;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h1{
+    margin:auto;
+    text-align:center;
+    font-size:80px;
+    font-family: Cosmic Sans;
+    padding-bottom: 50px;
+  }
+  .symbol{
+    background:#b00b55;
+  }
+  .number{
+    background:#cd2b07;
+  }
